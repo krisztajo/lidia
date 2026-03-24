@@ -332,7 +332,7 @@ export default function Home() {
       <section
         id="about"
         className="section-mystic relative overflow-hidden flex flex-col items-center"
-        style={{ paddingTop: '8rem', paddingBottom: '8rem' }}
+        style={{ paddingTop: "8rem", paddingBottom: "8rem" }}
       >
         {/* Floating symbols */}
         <span
@@ -448,7 +448,7 @@ export default function Home() {
       <section
         id="services"
         className="section-deep relative overflow-hidden flex flex-col items-center"
-        style={{ paddingTop: '10rem', paddingBottom: '10rem' }}
+        style={{ paddingTop: "10rem", paddingBottom: "10rem" }}
       >
         {/* Symbols */}
         <span
@@ -514,7 +514,10 @@ export default function Home() {
           rotation={-8}
         />
 
-        <div className="relative z-30 w-full max-w-6xl mx-auto px-6 text-center" style={{ paddingTop: '3rem' }}>
+        <div
+          className="relative z-30 w-full max-w-6xl mx-auto px-6 text-center"
+          style={{ paddingTop: "3rem" }}
+        >
           <p className="text-sm tracking-[0.3em] uppercase text-[#b8882a] mb-6">
             Szolgáltatások
           </p>
@@ -615,8 +618,8 @@ export default function Home() {
         id="levels"
         className="relative overflow-hidden flex flex-col items-center"
         style={{
-          paddingTop: '10rem',
-          paddingBottom: '10rem',
+          paddingTop: "10rem",
+          paddingBottom: "10rem",
           background:
             "linear-gradient(180deg, #f0ede6, #e8e3d9 20%, #e2dcd0 50%, #e8e3d9 80%, #f0ede6)",
         }}
@@ -999,7 +1002,7 @@ export default function Home() {
       {/* ===== TESTIMONIAL / QUOTE SECTION ===== */}
       <section
         className="section-deep relative overflow-hidden flex flex-col items-center"
-        style={{ paddingTop: '8rem', paddingBottom: '8rem' }}
+        style={{ paddingTop: "8rem", paddingBottom: "8rem" }}
       >
         <GoldenLadder3D
           height={100}
@@ -1041,7 +1044,7 @@ export default function Home() {
       <section
         id="contact"
         className="section-deep relative overflow-hidden flex flex-col items-center"
-        style={{ paddingTop: '10rem', paddingBottom: '10rem' }}
+        style={{ paddingTop: "10rem", paddingBottom: "10rem" }}
       >
         {/* Symbols */}
         <span
